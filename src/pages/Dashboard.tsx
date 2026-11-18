@@ -59,11 +59,11 @@ function Dashboard() {
         : `${formatDistance(Math.min(...dists))} away from the nearest`
 
   return (
-    <div className="p-4 md:p-6 max-w-[1600px] mx-auto">
+    <div className="p-1 md:p-2 max-w-[1600px] mx-auto">
       {/* Dashboard Heading */}
       <header className="mb-4">
         <div className="min-w-0">
-          <p className="g-label mb-1">Dashboard</p>
+          <p className="text-[17px] g-label mb-1">Dashboard</p>
 
           <h1 className="text-2xl font-semibold t-main mb-3">
             {name ? `Welcome back, ${name}!` : 'Dashboard'}
